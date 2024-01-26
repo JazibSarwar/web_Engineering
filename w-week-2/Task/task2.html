@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: chocolate;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            background-color: white;
+            width: 1000px;
+            display: flex;
+            padding: 20px;
+        }
+
+        .text {
+            margin-left: 20px;
+            max-width: 600px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: rgb(86, 126, 185);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <center>
+            <h1 style="color: white;">I am Jazib Sarwar</h1>
+            <h4 style="color: white;">Web Developer</h4>
+        </center>
+    </div> 
+    <div class="container">
+        <div class="content">
+            <img src="download.jpg" alt="Profile Image">
+            <div class="text">
+                <h3>About me</h3>
+                <p>
+                    Muhammad Jazib Sarwar, an adept web developer, crafts immersive online experiences through innovative design and robust development. With a passion for creating seamless and visually appealing websites, I bring technical expertise and creativity to every project. Committed to delivering web solutions that stand out in both form and function.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: -20px;">
+        <div class="content">
+            <div class="text">
+                <h3>My Skills</h3>
+                <p>
+                    I am a skilled professional with expertise in Java, Web Development, and Artificial Intelligence (AI). With a strong foundation in programming and a keen interest in cutting-edge technologies, I bring a dynamic approach to solving challenges and creating innovative solutions. My portfolio showcases my proficiency in Java, proficiency in developing web applications, and a solid understanding of AI principles. Explore my work to witness a fusion of technical acumen and creativity in action.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: -20px;">
+        <div class="content">
+            <img src="tra.jpg" alt="Profile Image">
+            <div class="text">
+                <h3>Projects</h3>
+                <h4>Travel Explorer: Discover Your Next Adventure</h4>
+                <p>
+                    Embark on a journey of exploration with Travel Explorer, a dynamic and user-friendly travel website designed to inspire and assist globetrotters in planning their next adventure. This platform seamlessly integrates stunning visuals, informative content, and interactive features to provide users with a comprehensive travel experience.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: -20px;">
+        <div class="content">
+            <div class="text">
+                <h3>Contact Me</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

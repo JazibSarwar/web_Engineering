@@ -1,0 +1,14 @@
+.ball{
+    height: 30px;
+    width: 30px;
+    border-radius: 25%;
+    background-color: #de0e0e;
+}
+#container{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    border: 10px solid black;
+}

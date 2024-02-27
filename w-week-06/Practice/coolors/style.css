@@ -1,0 +1,13 @@
+.ball{
+    width: 1250px;
+    height: 500px;
+    
+}
+#container{
+    width: 1250px;
+    height: 500px;
+    display: flex;
+   
+    
+    border: 10px solid black;
+}

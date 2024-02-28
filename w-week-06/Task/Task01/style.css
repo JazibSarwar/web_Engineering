@@ -1,0 +1,11 @@
+.taskclass {
+    width: 500px;
+    height: 20px; 
+    
+   
+}
+#container {
+    width: 455px;
+    border: 2px solid black;
+    padding: 10px;
+}
